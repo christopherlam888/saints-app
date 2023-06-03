@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "saints-app",
+    "name": "Saints App",
     "slug": "saints-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,11 +22,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.example.saints_app",
+      "versionCode": 1
     },
     "web": {
       "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb3d74c7-4a89-4f26-832f-1892e906cc0a"
+      }
     }
   }
 }
