@@ -30,7 +30,7 @@ export default function TabOneScreen() {
   const saints_today: Saint[] = saints.filter((saint) => saint.feastday === today);
   console.log(saints_today);
 
-  const [saint, setSaint] = useState<Saint>(saints_today.length > 0 ? saints_today[Math.floor(Math.random() * saints_today.length)] : { name: "No Saint Today", feastday: today, content: "No Saint Today" });
+  const [saint, setSaint] = useState<Saint>(saints_today.length > 0 ? saints_today[Math.floor(Math.random() * saints_today.length)] : { name: "No Saint Today", feastday: today, content: "" });
   console.log(saint);
 
   const randomSaint = () => {

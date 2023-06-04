@@ -1,13 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { Platform, StyleSheet } from 'react-native';
+import { Platform, StyleSheet, Image } from 'react-native';
 
 import { Text, View } from '../components/Themed';
 
 export default function ModalScreen() {
   return (
     <View style={styles.container}>
+      <Image style={styles.image} source={require('../assets/images/logo.png')} />
       <Text style={styles.title}>Saints App</Text>
-      <Text style={styles.author}>by Christopher Lam</Text>
+      <Text style={styles.author}>Developed by Christopher Lam</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <Text style={styles.content}>
         Saints App is an app to help you on your journey of faith. Explore 250 of the most popular
@@ -26,14 +27,18 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
     padding: "5%",
+  },
+  image: {
+    width: 250,
+    height: 250,
   },
   title: {
     textAlign: 'center',
     fontSize: 32,
     fontWeight: 'bold',
-    margin: 10,
+    marginHorizontal: 10,
+    marginBottom: 10,
   },
   author: {
     textAlign: 'center',
