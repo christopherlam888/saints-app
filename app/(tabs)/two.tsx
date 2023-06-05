@@ -31,10 +31,10 @@ export default function TabTwoScreen() {
       <ScrollView showsVerticalScrollIndicator={false}>
         {prayers.map((prayer, index) => (
           <TouchableOpacity activeOpacity={1} key={index} onPress={() => handlePrayerToggle(index)}>
-            <Text style={styles.name}>{prayer.name}</Text>
+            <Text selectable style={styles.name}>{prayer.name}</Text>
             {expandedPrayerIndex === index && (
               <BoxView style={styles.box}>
-                <Text style={styles.content}>{prayer.content}</Text>
+                <Text selectable style={styles.content}>{prayer.content}</Text>
               </BoxView>
             )}
           </TouchableOpacity>

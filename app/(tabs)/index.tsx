@@ -40,12 +40,12 @@ export default function TabOneScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.feastday}>{saint.feastday}</Text>
-      <Text style={styles.name}>{saint.name}</Text>
+      <Text selectable style={styles.feastday}>{saint.feastday}</Text>
+      <Text selectable style={styles.name}>{saint.name}</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <BoxView style={styles.box}>
         <ScrollView showsVerticalScrollIndicator={false}>
-          <Text style={styles.content}>{saint.content}</Text>
+          <Text selectable style={styles.content}>{saint.content}</Text>
         </ScrollView>
       </BoxView>
       <View style={styles.buttonview}>
