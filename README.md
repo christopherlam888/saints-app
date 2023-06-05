@@ -24,9 +24,9 @@
 
 ## Screenshots
 
-<img src="https://github.com/christopherlam888/saints-app/assets/85356197/8dac3bdd-e617-4220-b229-bb7af874be2a" width=200> <img src="https://github.com/christopherlam888/saints-app/assets/85356197/a1ded4cc-61c4-42e3-8628-85e7d0aec197" width=200> <img src="https://github.com/christopherlam888/saints-app/assets/85356197/ec15d26e-4d9a-4df4-855c-0fc3f02c728b" width=200> 
+<img src="https://github.com/christopherlam888/saints-app/assets/85356197/f8c6b7b9-f0e3-4d80-bc1c-ebabc38a3ab1" width=200> <img src="https://github.com/christopherlam888/saints-app/assets/85356197/10a1dbc9-c311-444f-aff3-0c1f20b592aa" width=200> <img src="https://github.com/christopherlam888/saints-app/assets/85356197/ba80f48b-0d69-4171-a0e7-96a667fb3182" width=200> 
 
-<img src="https://github.com/christopherlam888/saints-app/assets/85356197/17c65236-1e94-4a24-8682-f1cd067f3b99" width=200> <img src="https://github.com/christopherlam888/saints-app/assets/85356197/babe7ee2-dbec-45b3-8cba-bc876dfda48b" width=200>
+<img src="https://github.com/christopherlam888/saints-app/assets/85356197/69988b0e-8c99-40b0-be27-be2626e68d9a" width=200> <img src="https://github.com/christopherlam888/saints-app/assets/85356197/a5fe6017-344b-4d0d-b6db-cfeb062652db" width=200>
 
 ## Features To Implement
 
